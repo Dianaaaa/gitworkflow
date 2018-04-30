@@ -1,4 +1,4 @@
-# **What is Git-workflow?**
+# ** What is Git-workflow? **
 
 ## Firstly, consider two functionalities of git.
 - tracking changes in computer files
@@ -16,7 +16,7 @@
 ## Individual work aspect
 ### Git-workflow enables individuals to work on a project in a more flexiable way. For example, One can realize his/her several different ideas at the same time, and switch to see which is better. 
 
-# **How does Git-workflow work**?
+# ** How does Git-workflow work **?
 ## Git-workflow provides project branches with different function:
 - Master: the main branch
 - Develop
