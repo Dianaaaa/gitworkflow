@@ -1,4 +1,4 @@
-# ** What is Git-workflow? **
+# **What is Git-workflow**?
 
 ## Firstly, consider two functionalities of git.
 - tracking changes in computer files
@@ -42,5 +42,6 @@
 #### The "master" branch is used to release product. Add a "develop" branch to do the job that "master" branch does in the feature branches workflow. Then two more branches are add. One is "Release" branch, which is used to do release preparation. Once the preparation is over, the product will be tagged and merged to "master" branch as new version. Another is "hotfix" branch, whose functionality is to put a patch to production releases. After fixing bugs, this branch will be merged into "master" branch and "develop" branch.
 
 ### **Forking workflow**
-#### Compared to those above, this kind of workflow is essential different. In this workflow, one project has two repository. One is public on the sever, and another is private. This enables a huge scale of collaboration in safe environment. Even distrusted third-party can contribute. 
-#### Firstly, developer has a formal repository open on the server. If a programmer want to work on this project and want to clone this repository to his/her local file, he need to establish a copy of the formal repository on the server and it becomes a private repository. Each push works in this private repository. After finishing it, this programmer send a pull request to the developer. Developer will check it and merge it into his "master" branch and push it onto the formal repository.
+Compared to those above, this kind of workflow is essential different. In this workflow, one project has two repository. One is public on the sever, and another is private. This enables a huge scale of collaboration in safe environment. Even distrusted third-party can contribute. 
+
+Firstly, developer has a formal repository open on the server. If a programmer want to work on this project and want to clone this repository to his/her local file, he need to establish a copy of the formal repository on the server and it becomes a private repository. Each push works in this private repository. After finishing it, this programmer send a pull request to the developer. Developer will check it and merge it into his "master" branch and push it onto the formal repository.
